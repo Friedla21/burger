@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+
+.container {
+  border-radius: 10px;
+  margin-top: 100px;
+  height: 600px;
+  text-align: center;
+  background-color: white;
+}
+
+#title {
+  font-weight: bolder;
+}
+
+#devouredList {
+  height: 400px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  color: brown;
+  font-weight: bold;
+}
+
+.addBurger {
+  text-align: center;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.burgerContainer {
+  flex: auto;
+  flex-direction: column;
+}
+
+.burgerList {
+  height: 250px;
+  overflow: scroll;
+}
+
+.h2 {
+  font: bold;
+  text-decoration: underline;
+}
+
+button {
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+}
+
+.devoured {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px #000000;
+}
+
+#burgerTitle {
+  width: 50px;
+  height: 50px;
+}
+
+#titleRow {
+  flex-direction: row;
+}
